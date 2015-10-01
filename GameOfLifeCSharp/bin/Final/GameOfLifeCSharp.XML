@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GameOfLifeCSharp</name>
+    </assembly>
+    <members>
+        <member name="F:GameOfLifeCSharp.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:GameOfLifeCSharp.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:GameOfLifeCSharp.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:GameOfLifeCSharp.Cotroller.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:GameOfLifeCSharp.Table">
+            <summary>
+            A játéktér tábláját tárolja és kezeli
+            </summary>
+        </member>
+        <member name="M:GameOfLifeCSharp.Table.#ctor(System.Int32,System.Int32)">
+            <summary>
+            A létrehozó konstruktor
+            </summary>
+            <param name="sizeX">A létrehozandó tábla szélessége</param>
+            <param name="sizeY">A létrehozandó tábla magassága</param>
+        </member>
+        <member name="M:GameOfLifeCSharp.Table.generateTable">
+            <summary>
+            A mezők legenerálása
+            TODO: véletlen sziklák lehelyezése
+            </summary>
+        </member>
+        <member name="T:GameOfLifeCSharp.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:GameOfLifeCSharp.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:GameOfLifeCSharp.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+    </members>
+</doc>
